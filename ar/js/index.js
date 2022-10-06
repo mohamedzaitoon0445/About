@@ -133,30 +133,34 @@ Since: 06/08/2016
 		};
 
 		$scope.goToFacebook = function(){
-			document.location.assign("https://www.facebook.com/mzaitoon90");
+			document.location.assign("https://www.facebook.com/mohamedzaitoon0445");
 		};
  $scope.goToTwitter = function(){
-			document.location.assign("https://www.twitter.com/mzaitoon90");
+			document.location.assign("https://www.twitter.com/mzaitoon0445");
 		};
- $scope.goToInstagram = function(){
-			document.location.assign("https://www.instagram.com/mohamedzaitoon90");
-		};
-$scope.goToYoutube = function(){
-			document.location.assign("https://www.youtube.com/channel/UCmHUIM1cmQvTfZamRfDqH-w");
-		};
+ 
 $scope.goToWhatsApp = function(){
-			document.location.assign("https://wa.me/201554257297");
+			document.location.assign("https://wa.me/201557817621");
 		};
 
 		$scope.goToGithub = function(){
-			document.location.assign("https://github.com/mohamed-zaitoon");
+			document.location.assign("https://github.com/mohamedzaitoon0445");
+		};
+	$scope.goToTelegram = function(){
+			document.location.assign("https://t.me/mohamedzaitoon0445");
+		};
+	$scope.goToDiscord = function(){
+			document.location.assign("https://discordapp.com/channels/@me/mohamedzaitoon0445/");
+		};
+	$scope.goToBinance = function(){
+			document.location.assign("https://www.binance.com/ar/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00EC2QM087");
 		};
 
 		$scope.sendMail = function(){
-    		$window.location.href = "mailto:mzaitoon90@gmail.com";
+    		$window.location.href = "mailto:mohamedzaitoon0445@gmail.com";
 		};
 		$scope.callMobile = function(){
-    		$window.location.href = "tel:+201554257297";
+    		$window.location.href = "tel:+201557817621";
 		};
 		
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"
+lang="en-US"> 
   <head>
       <title>Mohamed Zaitoon</title>
       <!-- Meta -->
@@ -8,10 +9,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Mohamed Zaitoon Resume/CV Page">
       <meta name="author" content="Mohamed Zaitoon"> 	  
-     <meta name="yandex-verification" content="56591e46b32ddf4c" />
-	 <meta name="keywords" content="android,web,dev,design">
+     <meta name="keywords" content="android,web,dev,design">
 	 <meta name="robots" content="index, follow">
+	 
 	<link rel="shortcut icon" href="images/logo.jpg">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 	 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
       <!-- Global CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">   
@@ -20,14 +23,19 @@
       <!-- Theme CSS -->  
       <link id="theme-style" rel="stylesheet" href="css/index.css">
 	<script data-cfasync="false" type="text/javascript" src="https://www.onclicksuper.com/a/display.php?r=2376579"></script>
+	<script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 <script type="text/javascript">
 var userLang = navigator.language || navigator.userLanguage; 
-if (userLang.startsWith("ar")){
+if (userLang == "ar"){
   redirectTime = "1";
  redirectURL = "ar";
  setTimeout("location.href = redirectURL;",redirectTime);
 }
 </script>
+<!--script type="text/javascript">
+var userLang = navigator.language || navigator.userLanguage; 
+alert ("The language is: " + userLang);
+</script-->
 	</head> 
 
   <body ng-app="app" oncontextmenu='return false;' onkeydown='return false;' onmousedown='return true;'>
@@ -35,21 +43,26 @@ if (userLang.startsWith("ar")){
     <div class="wrapper" ng-controller="PageCtrl" ng-init="init()">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img id="photo" class="profile" src="images/profile.jpg" alt="Mariana Azevedo profile photo" />
+                <img id="photo" class="profile" src="images/profile.jpg" alt="Mohamed Zaitoon profile photo" />
                 <h1 class="name">Mohamed Zaitoon</h1>
-                <h3 class="tagline">Freelancer</h3>
+                <h3 class="tagline">Student</h3>
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
 			    <ul class="list-unstyled contact-list">
-                    <li class="email cursor-pointer"><i class="fa fa-envelope"></i><a ng-click="sendMail()">mzaitoon90@gmail.com</a></li>
-                    <li class="facebook cursor-pointer"><i class="fa fa-facebook"></i><a ng-click="goToFacebook()" target="_blank">/mzaitoon90</a></li>
-				  <li class="twitter cursor-pointer"><i class="fa fa-twitter"></i><a ng-click="goToTwitter()" target="_blank">/mzaitoon90</a></li>
-				  <li class="instagram cursor-pointer"><i class="fa fa-instagram"></i><a ng-click="goToInstagram()" target="_blank">/mohamedzaitoon90</a></li>
-				  <li class="youtube cursor-pointer"><i class="fa fa-youtube"></i><a ng-click="goToYoutube()" target="_blank">/channel/UCmHUIM1cmQvTfZamRfDqH-w</a></li>
-				  <li class="github cursor-pointer"><i class="fa fa-github"></i><a ng-click="goToGithub()" target="_blank">/mohamed-zaitoon</a></li>
-				  <li class="whatsapp cursor-pointer"><i class="fa fa-whatsapp"></i><a ng-click="goToWhatsApp()" target="_blank">+201554257297</a></li>
-				  <li class="mobile-phone cursor-pointer"><i class="fa fa-mobile-phone"></i><a ng-click="callMobile()">+201554257297</a></li>
+                    <li class="email cursor-pointer"><i class="fa fa-envelope"></i><a ng-click="sendMail()">mohamedzaitoon0445@gmail.com</a></li>
+                    <li class="facebook cursor-pointer"><i class="fa fa-facebook"></i><a ng-click="goToFacebook()" target="_blank">/mohamedzaitoon0445</a></li>
+				  <li class="twitter cursor-pointer"><i class="fa fa-twitter"></i><a ng-click="goToTwitter()" target="_blank">/mzaitoon0445</a></li>
+				  <li class="github cursor-pointer"><i class="fa fa-github"></i><a ng-click="goToGithub()" target="_blank">/mohamedzaitoon0445</a></li>
+				  <li class="telegram cursor-pointer"><i class="fa fa-telegram"></i><a ng-click="goToTelegram()" target="_blank">/mohamedzaitoon0445</a></li>
+				  <li class="discord cursor-pointer"><i class="fa bi-discord"></i><a ng-click="goToDiscord()" target="_blank">/mohamedzaitoon#0445</a></li>
+				    <li class="binance cursor-pointer"><iconify-icon icon="simple-icons:binance"></iconify-icon><a ng-click="goToBinance()" target="_blank"> /mohamedzaitoon0445 
+</a></li>
+
+			
+				  <li class="whatsapp cursor-pointer"><i class="fa fa-whatsapp"></i><a ng-click="goToWhatsApp()" target="_blank">+201557817621</a></li>
+				
+						<li class="mobile-phone cursor-pointer"><i class="fa fa-mobile-phone"></i><a ng-click="callMobile()">+201557817621</a></li>
 				  
 				  </ul>
 			  </div><!--//contact-container-->
@@ -73,9 +86,9 @@ if (userLang.startsWith("ar")){
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
-				  <li>Web development</li>
-				  <li>Java development</li>
-                  <li>Mobile development</li>
+				  <li>Law</li>
+				  <li>Investment</li>
+                  <li>Cryptocurrency</li>
                 </ul>
             </div><!--//interests-->
             
@@ -86,7 +99,7 @@ if (userLang.startsWith("ar")){
             <section class="section summary-section">
                 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
                 <div class="summary">
-				  <p>Student at the Faculty of Law, I love development android applications and websites, I do not much attention to the words of people unless it is true, I do not hate anyone but who is hate me I hate him, God is one and Mohammed is messenger of God.</p>
+				  <p>Student at the Faculty of Law, I interested in cryptocurrency and investing applications and websites, I do not much attention to the words of people unless it is true, I do not hate anyone but who is hate me I hate him, God is one and Mohammed is messenger of God.</p>
                 </div><!--//summary-->
             </section><!--//section-->
             
