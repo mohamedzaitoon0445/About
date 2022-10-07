@@ -26,9 +26,9 @@ lang="en-US">
 	<script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 <script type="text/javascript">
 var userLang = navigator.language || navigator.userLanguage; 
-if (userLang == "ar"){
+if (userLang.startsWith("ar")){
   redirectTime = "1";
- redirectURL = "ar";
+ redirectURL = "/ar";
  setTimeout("location.href = redirectURL;",redirectTime);
 }
 </script>
